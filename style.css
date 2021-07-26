@@ -180,6 +180,44 @@ section, footer,header {
   align-items: flex-start;
 }
 
+.artigos-wrapper {
+  margin-top: 3rem;
+  height: 200px;
+  overflow-y: hidden;
+  overflow-x: auto;
+}
+.artigos-wrapper .box {
+  margin: 0 3rem;
+  display: inline-block;
+}
+.artigos-wrapper .box .button {
+  margin-top: 1rem;
+}
+
+footer {
+  text-align: center;
+  background-color: var(--blue400);
+  border-top: 30px solid var(--blue600);
+}
+footer h2 {
+  font-family: 'Megrim';
+  font-size: 4rem;
+  color: var(--dark600);
+}
+footer .box {
+  max-width: 500px;
+  margin: 3rem auto;
+
+  box-shadow: 15px 15px 0px 0px var(--dark600);
+  border: 2px solid var(--dark600);
+}
+footer .box h3 {
+  color: var(--dark600);
+}
+footer .box p {
+  color: var(--dark400);
+}
+
 @media (max-width: 850px) {
   .header-services {              /* .box isn't center */
     grid-template-columns: 1fr;
